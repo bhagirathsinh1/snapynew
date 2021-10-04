@@ -37,6 +37,6 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "build/app/outputs/apk/debug/*"
-          tag: calculator.v1.0.${{ github.run_number }}
+          tag: Photo_Snappy.v1.0.${{ github.run_number }}
           token: ${{ secrets.SNAPPY_TOKEN }}
         #  token: ${{ secrets.MY_TOKEN }}
